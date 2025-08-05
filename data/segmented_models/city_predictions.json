@@ -1,0 +1,50 @@
+{
+  "Bangalore": {
+    "regular_count": 5605,
+    "luxury_count": 580,
+    "regular_avg": 7494513.058876003,
+    "luxury_avg": 34264655.09827586,
+    "regular_median": 6859999.0,
+    "luxury_median": 28250000.0
+  },
+  "Chennai": {
+    "regular_count": 4622,
+    "luxury_count": 386,
+    "regular_avg": 6404123.488316746,
+    "luxury_avg": 34432124.27979275,
+    "regular_median": 5476000.0,
+    "luxury_median": 28950000.0
+  },
+  "Delhi": {
+    "regular_count": 4317,
+    "luxury_count": 587,
+    "regular_avg": 7348331.240444753,
+    "luxury_avg": 33303747.862010222,
+    "regular_median": 4400000.0,
+    "luxury_median": 27000000.0
+  },
+  "Hyderabad": {
+    "regular_count": 2309,
+    "luxury_count": 208,
+    "regular_avg": 7726149.816803811,
+    "luxury_avg": 32298076.91346154,
+    "regular_median": 7200000.0,
+    "luxury_median": 29100000.0
+  },
+  "Kolkata": {
+    "regular_count": 6104,
+    "luxury_count": 386,
+    "regular_avg": 5680826.15285059,
+    "luxury_avg": 46723575.106217615,
+    "regular_median": 4677500.0,
+    "luxury_median": 40000000.0
+  },
+  "Mumbai": {
+    "regular_count": 6173,
+    "luxury_count": 1479,
+    "regular_avg": 8624087.943625465,
+    "luxury_avg": 35275185.91615957,
+    "regular_median": 7998000.0,
+    "luxury_median": 29000000.0
+  }
+}

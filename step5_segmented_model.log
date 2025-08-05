@@ -1,0 +1,480 @@
+2025-08-05 11:08:36,254 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 11:08:36,254 - INFO -    Memory: 4.0 GB
+2025-08-05 11:08:36,350 - INFO -    Loaded 32,963 properties
+2025-08-05 11:08:36,604 - INFO -    Saved 29,130 records to regular_properties.csv
+2025-08-05 11:08:36,636 - INFO -    Saved 3,626 records to luxury_properties.csv
+2025-08-05 11:08:36,639 - INFO -    Saved 207 records to outliers.csv
+2025-08-05 11:08:36,645 - INFO -    Categorical features: 1
+2025-08-05 11:08:36,645 - INFO -    Continuous features: 44
+2025-08-05 11:08:36,660 - INFO -    Encoded 1 categorical features
+2025-08-05 11:08:39,065 - INFO -       R�: 0.9986
+2025-08-05 11:08:40,473 - INFO -       R�: 0.9867
+2025-08-05 11:08:40,650 - INFO -    Models saved to D:\Mohak\projects\housing-prices\data\segmented_models
+2025-08-05 11:08:40,650 - ERROR - Pipeline failed: 'NoneType' object has no attribute 'generate_analysis_report'
+2025-08-05 11:09:10,540 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 11:09:10,541 - INFO -    Memory: 4.0 GB
+2025-08-05 11:09:10,631 - INFO -    Loaded 32,963 properties
+2025-08-05 11:09:10,891 - INFO -    Saved 29,130 records to regular_properties.csv
+2025-08-05 11:09:10,920 - INFO -    Saved 3,626 records to luxury_properties.csv
+2025-08-05 11:09:10,924 - INFO -    Saved 207 records to outliers.csv
+2025-08-05 11:09:10,927 - INFO -    Categorical features: 1
+2025-08-05 11:09:10,928 - INFO -    Continuous features: 44
+2025-08-05 11:09:10,940 - INFO -    Encoded 1 categorical features
+2025-08-05 11:09:13,265 - INFO -       R�: 0.9986
+2025-08-05 11:09:14,586 - INFO -       R�: 0.9867
+2025-08-05 11:09:14,737 - INFO -    Models saved to D:\Mohak\projects\housing-prices\data\segmented_models
+2025-08-05 11:09:16,669 - INFO -    Analysis saved to D:\Mohak\projects\housing-prices\data\segmented_models\segmented_model_analysis.png
+2025-08-05 11:17:05,118 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 11:17:05,118 - INFO -    Memory: 4.0 GB
+2025-08-05 11:17:05,206 - INFO -    Loaded 32,963 properties
+2025-08-05 11:17:05,466 - INFO -    Saved 29,130 records to regular_properties.csv
+2025-08-05 11:17:05,494 - INFO -    Saved 3,626 records to luxury_properties.csv
+2025-08-05 11:17:05,498 - INFO -    Saved 207 records to outliers.csv
+2025-08-05 11:17:05,504 - INFO -       - neighborhood_avg_price_2km
+2025-08-05 11:17:05,511 - INFO -       - price_per_sqft
+2025-08-05 11:17:05,516 - INFO -       - location_frequency
+2025-08-05 11:17:05,522 - INFO -    Categorical features: 1
+2025-08-05 11:17:05,522 - INFO -    Continuous features: 41
+2025-08-05 11:17:05,536 - INFO -    Encoded 1 categorical features
+2025-08-05 11:17:12,021 - INFO -       R� (Test): 0.4571
+2025-08-05 11:17:12,022 - INFO -       R� (CV Mean): 0.4248 � 0.0114
+2025-08-05 11:17:16,633 - INFO -       R� (Test): 0.3003
+2025-08-05 11:17:16,634 - INFO -       R� (CV Mean): 0.2837 � 0.0216
+2025-08-05 11:17:16,838 - INFO -    Models saved to D:\Mohak\projects\housing-prices\data\segmented_models
+2025-08-05 11:17:16,855 - INFO -    Generated predictions for 6 cities
+2025-08-05 11:17:18,035 - INFO -    Analysis saved to D:\Mohak\projects\housing-prices\data\segmented_models\segmented_model_analysis.png
+2025-08-05 11:17:18,036 - INFO -    City predictions saved to D:\Mohak\projects\housing-prices\data\segmented_models\city_predictions.json
+2025-08-05 12:51:25,298 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 12:51:25,299 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 12:51:25,299 - INFO -    Memory: 4.0 GB
+2025-08-05 12:51:25,299 - INFO - [DATA] LOADING DATA FOR SEGMENTED MODEL
+2025-08-05 12:51:25,411 - INFO -    Loaded 32,963 properties
+2025-08-05 12:51:25,412 - INFO - [SEGMENT] SEGMENTING MARKET BY PRICE RANGES
+2025-08-05 12:51:25,439 - INFO -    [REGULAR] REGULAR PROPERTIES: 29,130 (88.9%)
+2025-08-05 12:51:25,440 - INFO -       Range: Rs.2,000,000 - Rs.19,900,000
+2025-08-05 12:51:25,443 - INFO -       Median: Rs.6,000,000
+2025-08-05 12:51:25,443 - INFO -    [LUXURY] LUXURY PROPERTIES: 3,626 (11.1%)
+2025-08-05 12:51:25,444 - INFO -       Range: Rs.20,000,000 - Rs.100,000,000
+2025-08-05 12:51:25,444 - INFO -       Median: Rs.29,000,000
+2025-08-05 12:51:25,445 - INFO -    [OUTLIERS] OUTLIERS REMOVED: 207 properties above Rs.100,000,000
+2025-08-05 12:51:25,698 - INFO -    Saved 29,130 records to regular_properties.csv
+2025-08-05 12:51:25,730 - INFO -    Saved 3,626 records to luxury_properties.csv
+2025-08-05 12:51:25,734 - INFO -    Saved 207 records to outliers.csv
+2025-08-05 12:51:25,735 - INFO - [FEATURES] PREPARING FEATURES FOR SEGMENTED MODELS
+2025-08-05 12:51:25,738 - INFO -    [CLEAN] REMOVED DATA LEAKAGE FEATURES:
+2025-08-05 12:51:25,739 - INFO -       - neighborhood_avg_price_2km
+2025-08-05 12:51:25,747 - INFO -       - price_per_sqft
+2025-08-05 12:51:25,753 - INFO -       - location_frequency
+2025-08-05 12:51:25,759 - INFO -    Categorical features: 1
+2025-08-05 12:51:25,760 - INFO -    Continuous features: 41
+2025-08-05 12:51:25,760 - INFO -    [SUCCESS] CLEAN FEATURES (No Data Leakage)
+2025-08-05 12:51:25,760 - INFO - [ENCODE] ENCODING CATEGORICAL FEATURES
+2025-08-05 12:51:25,770 - INFO -    Encoded 1 categorical features
+2025-08-05 12:51:25,771 - INFO - [TRAIN] TRAINING SEGMENTED MODELS
+2025-08-05 12:51:25,771 - INFO -    [REGULAR] Training Regular Properties Model (LightGBM)
+2025-08-05 12:51:34,465 - INFO -       R² (Test): 0.4571
+2025-08-05 12:51:34,469 - INFO -       R² (CV Mean): 0.4248 ± 0.0114
+2025-08-05 12:51:34,471 - INFO -       MAE: Rs.2,235,009
+2025-08-05 12:51:34,481 - INFO -    [LUXURY] Training Luxury Properties Model (Random Forest)
+2025-08-05 12:51:39,474 - INFO -       R² (Test): 0.3003
+2025-08-05 12:51:39,474 - INFO -       R² (CV Mean): 0.2837 ± 0.0216
+2025-08-05 12:51:39,475 - INFO -       MAE: Rs.10,013,084
+2025-08-05 12:51:39,475 - INFO - [SAVE] SAVING SEGMENTED MODELS
+2025-08-05 12:51:39,668 - INFO -    Models saved to D:\Mohak\projects\housing-prices\data\segmented_models
+2025-08-05 12:51:39,669 - INFO - [ANALYSIS] GENERATING SEGMENTED MODEL ANALYSIS
+2025-08-05 12:51:39,669 - INFO - [CITIES] GENERATING CITY-WISE PREDICTIONS
+2025-08-05 12:51:39,686 - INFO -    Generated predictions for 6 cities
+2025-08-05 12:51:41,581 - INFO -    Analysis saved to D:\Mohak\projects\housing-prices\data\segmented_models\segmented_model_analysis.png
+2025-08-05 12:51:41,583 - INFO -    City predictions saved to D:\Mohak\projects\housing-prices\data\segmented_models\city_predictions.json
+2025-08-05 12:55:55,282 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 12:55:55,283 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 12:55:55,283 - INFO -    Memory: 4.0 GB
+2025-08-05 12:55:55,283 - INFO - [DATA] LOADING DATA FOR SEGMENTED MODEL
+2025-08-05 12:55:55,378 - INFO -    Loaded 32,963 properties
+2025-08-05 12:55:55,379 - INFO - [SEGMENT] SEGMENTING MARKET BY PRICE RANGES
+2025-08-05 12:55:55,400 - INFO -    [REGULAR] REGULAR PROPERTIES: 29,130 (88.9%)
+2025-08-05 12:55:55,401 - INFO -       Range: Rs.2,000,000 - Rs.19,900,000
+2025-08-05 12:55:55,402 - INFO -       Median: Rs.6,000,000
+2025-08-05 12:55:55,402 - INFO -    [LUXURY] LUXURY PROPERTIES: 3,626 (11.1%)
+2025-08-05 12:55:55,402 - INFO -       Range: Rs.20,000,000 - Rs.100,000,000
+2025-08-05 12:55:55,403 - INFO -       Median: Rs.29,000,000
+2025-08-05 12:55:55,403 - INFO -    [OUTLIERS] OUTLIERS REMOVED: 207 properties above Rs.100,000,000
+2025-08-05 12:55:55,623 - INFO -    Saved 29,130 records to regular_properties.csv
+2025-08-05 12:55:55,653 - INFO -    Saved 3,626 records to luxury_properties.csv
+2025-08-05 12:55:55,656 - INFO -    Saved 207 records to outliers.csv
+2025-08-05 12:55:55,657 - INFO - [FEATURES] PREPARING FEATURES FOR SEGMENTED MODELS
+2025-08-05 12:55:55,658 - INFO -    [CLEAN] REMOVED DATA LEAKAGE FEATURES:
+2025-08-05 12:55:55,658 - INFO -       - neighborhood_avg_price_2km
+2025-08-05 12:55:55,664 - INFO -       - price_per_sqft
+2025-08-05 12:55:55,670 - INFO -       - location_frequency
+2025-08-05 12:55:55,676 - INFO -    Categorical features: 1
+2025-08-05 12:55:55,676 - INFO -    Continuous features: 41
+2025-08-05 12:55:55,677 - INFO -    [SUCCESS] CLEAN FEATURES (No Data Leakage)
+2025-08-05 12:55:55,677 - INFO - [ENCODE] ENCODING CATEGORICAL FEATURES
+2025-08-05 12:55:55,686 - INFO -    Encoded 1 categorical features
+2025-08-05 12:55:55,687 - INFO - [TRAIN] TRAINING SEGMENTED MODELS
+2025-08-05 12:55:55,687 - INFO -    [REGULAR] Training Regular Properties Model (LightGBM)
+2025-08-05 12:56:02,164 - INFO -       R² (Test): 0.4571
+2025-08-05 12:56:02,164 - INFO -       R² (CV Mean): 0.4248 ± 0.0114
+2025-08-05 12:56:02,164 - INFO -       MAE: Rs.2,235,009
+2025-08-05 12:56:02,165 - INFO -    [LUXURY] Training Luxury Properties Model (Random Forest)
+2025-08-05 12:56:08,014 - INFO -       R² (Test): 0.3003
+2025-08-05 12:56:08,015 - INFO -       R² (CV Mean): 0.2837 ± 0.0216
+2025-08-05 12:56:08,015 - INFO -       MAE: Rs.10,013,084
+2025-08-05 12:56:08,016 - INFO - [SAVE] SAVING SEGMENTED MODELS
+2025-08-05 12:56:08,137 - INFO -    Models saved to D:\Mohak\projects\housing-prices\data\segmented_models
+2025-08-05 12:56:08,137 - INFO - [ANALYSIS] GENERATING SEGMENTED MODEL ANALYSIS
+2025-08-05 12:56:08,137 - INFO - [LOCATIONS] GENERATING LOCATION-WISE PREDICTIONS BY CITY
+2025-08-05 12:56:08,138 - INFO -    Processing Bangalore...
+2025-08-05 12:56:08,154 - INFO -    Processing Chennai...
+2025-08-05 12:56:08,167 - INFO -    Processing Delhi...
+2025-08-05 12:56:08,178 - INFO -    Processing Hyderabad...
+2025-08-05 12:56:08,188 - INFO -    Processing Kolkata...
+2025-08-05 12:56:08,200 - INFO -    Processing Mumbai...
+2025-08-05 12:56:08,216 - INFO -    Generated predictions for 6 cities with 1657 unique locations
+2025-08-05 12:56:09,415 - INFO -    Analysis saved to D:\Mohak\projects\housing-prices\data\segmented_models\segmented_model_analysis.png
+2025-08-05 12:56:09,424 - INFO -    Location predictions saved to D:\Mohak\projects\housing-prices\data\segmented_models\location_predictions.json
+2025-08-05 12:56:09,426 - INFO -    Location summary saved to D:\Mohak\projects\housing-prices\data\segmented_models\location_summary.json
+2025-08-05 13:10:40,359 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 13:10:40,359 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 13:10:40,359 - INFO -    Memory: 4.0 GB
+2025-08-05 13:10:40,359 - INFO - [DATA] LOADING DATA FOR SEGMENTED MODEL
+2025-08-05 13:10:40,439 - INFO -    Loaded 32,963 properties
+2025-08-05 13:10:40,440 - INFO - [SEGMENT] SEGMENTING MARKET BY PRICE RANGES
+2025-08-05 13:10:40,455 - INFO -    [REGULAR] REGULAR PROPERTIES: 29,130 (88.9%)
+2025-08-05 13:10:40,455 - INFO -       Range: Rs.2,000,000 - Rs.19,900,000
+2025-08-05 13:10:40,456 - INFO -       Median: Rs.6,000,000
+2025-08-05 13:10:40,456 - INFO -    [LUXURY] LUXURY PROPERTIES: 3,626 (11.1%)
+2025-08-05 13:10:40,457 - INFO -       Range: Rs.20,000,000 - Rs.100,000,000
+2025-08-05 13:10:40,457 - INFO -       Median: Rs.29,000,000
+2025-08-05 13:10:40,457 - INFO -    [OUTLIERS] OUTLIERS REMOVED: 207 properties above Rs.100,000,000
+2025-08-05 13:10:40,674 - INFO -    Saved 29,130 records to regular_properties.csv
+2025-08-05 13:10:40,703 - INFO -    Saved 3,626 records to luxury_properties.csv
+2025-08-05 13:10:40,706 - INFO -    Saved 207 records to outliers.csv
+2025-08-05 13:10:40,707 - INFO - [FEATURES] PREPARING FEATURES FOR SEGMENTED MODELS
+2025-08-05 13:10:40,708 - INFO -    [CLEAN] REMOVED DATA LEAKAGE FEATURES:
+2025-08-05 13:10:40,708 - INFO -       - neighborhood_avg_price_2km
+2025-08-05 13:10:40,714 - INFO -       - price_per_sqft
+2025-08-05 13:10:40,719 - INFO -       - location_frequency
+2025-08-05 13:10:40,725 - INFO -    Categorical features: 1
+2025-08-05 13:10:40,725 - INFO -    Continuous features: 41
+2025-08-05 13:10:40,726 - INFO -    [SUCCESS] CLEAN FEATURES (No Data Leakage)
+2025-08-05 13:10:40,726 - INFO - [ENCODE] ENCODING CATEGORICAL FEATURES
+2025-08-05 13:10:40,735 - INFO -    Encoded 1 categorical features
+2025-08-05 13:10:40,736 - INFO - [TRAIN] TRAINING SEGMENTED MODELS
+2025-08-05 13:10:40,736 - INFO -    [REGULAR] Training Regular Properties Model (LightGBM)
+2025-08-05 13:10:46,995 - INFO -       R² (Test): 0.4571
+2025-08-05 13:10:46,996 - INFO -       R² (CV Mean): 0.4248 ± 0.0114
+2025-08-05 13:10:46,996 - INFO -       MAE: Rs.2,235,009
+2025-08-05 13:10:46,997 - INFO -    [LUXURY] Training Luxury Properties Model (Random Forest)
+2025-08-05 13:10:51,458 - INFO -       R² (Test): 0.3003
+2025-08-05 13:10:51,459 - INFO -       R² (CV Mean): 0.2837 ± 0.0216
+2025-08-05 13:10:51,459 - INFO -       MAE: Rs.10,013,084
+2025-08-05 13:10:51,459 - INFO - [SAVE] SAVING SEGMENTED MODELS
+2025-08-05 13:10:51,645 - INFO -    Models saved to d:\Mohak\projects\housing-prices\data\segmented_models
+2025-08-05 13:10:51,646 - INFO - [ANALYSIS] GENERATING SEGMENTED MODEL ANALYSIS
+2025-08-05 13:10:51,646 - INFO - [LOCATIONS] GENERATING LOCATION-WISE MARKET ANALYSIS
+2025-08-05 13:10:51,705 - INFO -    Processed 6 cities with 1657 unique locations
+2025-08-05 13:10:52,805 - INFO -    Analysis saved to d:\Mohak\projects\housing-prices\data\segmented_models\segmented_model_analysis.png
+2025-08-05 13:10:52,811 - INFO -    Location predictions saved to d:\Mohak\projects\housing-prices\data\segmented_models\location_predictions.json
+2025-08-05 13:10:52,812 - INFO -    Location summary saved to d:\Mohak\projects\housing-prices\data\segmented_models\location_summary.json
+2025-08-05 13:27:27,372 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 13:27:27,373 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 13:27:27,373 - INFO -    Memory: 4.0 GB
+2025-08-05 13:27:28,279 - INFO - [RBI] RBI API connection successful
+2025-08-05 13:27:28,280 - INFO - [DATA] LOADING DATA FOR SEGMENTED MODEL
+2025-08-05 13:27:28,368 - INFO -    Loaded 32,963 properties
+2025-08-05 13:27:28,369 - INFO - [SEGMENT] SEGMENTING MARKET BY PRICE RANGES
+2025-08-05 13:27:28,391 - INFO -    [REGULAR] REGULAR PROPERTIES: 29,130 (88.9%)
+2025-08-05 13:27:28,392 - INFO -       Range: Rs.2,000,000 - Rs.19,900,000
+2025-08-05 13:27:28,393 - INFO -       Median: Rs.6,000,000
+2025-08-05 13:27:28,393 - INFO -    [LUXURY] LUXURY PROPERTIES: 3,626 (11.1%)
+2025-08-05 13:27:28,394 - INFO -       Range: Rs.20,000,000 - Rs.100,000,000
+2025-08-05 13:27:28,394 - INFO -       Median: Rs.29,000,000
+2025-08-05 13:27:28,394 - INFO -    [OUTLIERS] OUTLIERS REMOVED: 207 properties above Rs.100,000,000
+2025-08-05 13:27:28,607 - INFO -    Saved 29,130 records to regular_properties.csv
+2025-08-05 13:27:28,637 - INFO -    Saved 3,626 records to luxury_properties.csv
+2025-08-05 13:27:28,640 - INFO -    Saved 207 records to outliers.csv
+2025-08-05 13:27:28,641 - INFO - [FEATURES] PREPARING FEATURES FOR SEGMENTED MODELS
+2025-08-05 13:27:28,643 - INFO -    [CLEAN] REMOVED DATA LEAKAGE FEATURES:
+2025-08-05 13:27:28,644 - INFO -       - neighborhood_avg_price_2km
+2025-08-05 13:27:28,649 - INFO -       - price_per_sqft
+2025-08-05 13:27:28,655 - INFO -       - location_frequency
+2025-08-05 13:27:28,661 - INFO -    Categorical features: 1
+2025-08-05 13:27:28,661 - INFO -    Continuous features: 41
+2025-08-05 13:27:28,661 - INFO -    [SUCCESS] CLEAN FEATURES (No Data Leakage)
+2025-08-05 13:27:28,661 - INFO - [ENCODE] ENCODING CATEGORICAL FEATURES
+2025-08-05 13:27:28,671 - INFO -    Encoded 1 categorical features
+2025-08-05 13:27:28,673 - INFO - [TRAIN] TRAINING SEGMENTED MODELS
+2025-08-05 13:27:28,673 - INFO -    [REGULAR] Training Regular Properties Model (LightGBM)
+2025-08-05 13:27:35,921 - INFO -       R² (Test): 0.4571
+2025-08-05 13:27:35,924 - INFO -       R² (CV Mean): 0.4248 ± 0.0114
+2025-08-05 13:27:35,926 - INFO -       MAE: Rs.2,235,009
+2025-08-05 13:27:35,935 - INFO -    [LUXURY] Training Luxury Properties Model (Random Forest)
+2025-08-05 13:27:41,387 - INFO -       R² (Test): 0.3003
+2025-08-05 13:27:41,388 - INFO -       R² (CV Mean): 0.2837 ± 0.0216
+2025-08-05 13:27:41,388 - INFO -       MAE: Rs.10,013,084
+2025-08-05 13:27:41,388 - INFO - [SAVE] SAVING SEGMENTED MODELS
+2025-08-05 13:27:41,503 - INFO -    Models saved to d:\Mohak\projects\housing-prices\data\segmented_models
+2025-08-05 13:27:41,503 - INFO - [ANALYSIS] GENERATING SEGMENTED MODEL ANALYSIS
+2025-08-05 13:27:41,503 - INFO - [LOCATIONS] GENERATING LOCATION-WISE MARKET ANALYSIS
+2025-08-05 13:27:41,562 - INFO -    Processed 6 cities with 1657 unique locations
+2025-08-05 13:27:42,666 - INFO -    Analysis saved to d:\Mohak\projects\housing-prices\data\segmented_models\segmented_model_analysis.png
+2025-08-05 13:27:42,671 - INFO -    Location predictions saved to d:\Mohak\projects\housing-prices\data\segmented_models\location_predictions.json
+2025-08-05 13:27:42,672 - INFO -    Location summary saved to d:\Mohak\projects\housing-prices\data\segmented_models\location_summary.json
+2025-08-05 13:32:57,937 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 13:32:57,938 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 13:32:57,938 - INFO -    Memory: 4.0 GB
+2025-08-05 13:32:58,354 - INFO - [RBI] RBI API connection successful
+2025-08-05 13:32:58,355 - INFO - [DATA] LOADING DATA FOR SEGMENTED MODEL
+2025-08-05 13:32:58,440 - INFO -    Loaded 32,963 properties
+2025-08-05 13:32:58,440 - INFO - [SEGMENT] SEGMENTING MARKET BY PRICE RANGES
+2025-08-05 13:32:58,458 - INFO -    [REGULAR] REGULAR PROPERTIES: 29,130 (88.9%)
+2025-08-05 13:32:58,458 - INFO -       Range: Rs.2,000,000 - Rs.19,900,000
+2025-08-05 13:32:58,459 - INFO -       Median: Rs.6,000,000
+2025-08-05 13:32:58,459 - INFO -    [LUXURY] LUXURY PROPERTIES: 3,626 (11.1%)
+2025-08-05 13:32:58,459 - INFO -       Range: Rs.20,000,000 - Rs.100,000,000
+2025-08-05 13:32:58,459 - INFO -       Median: Rs.29,000,000
+2025-08-05 13:32:58,461 - INFO -    [OUTLIERS] OUTLIERS REMOVED: 207 properties above Rs.100,000,000
+2025-08-05 13:32:58,681 - INFO -    Saved 29,130 records to regular_properties.csv
+2025-08-05 13:32:58,711 - INFO -    Saved 3,626 records to luxury_properties.csv
+2025-08-05 13:32:58,714 - INFO -    Saved 207 records to outliers.csv
+2025-08-05 13:32:58,715 - INFO - [FEATURES] PREPARING FEATURES FOR SEGMENTED MODELS
+2025-08-05 13:32:58,715 - INFO -    [CLEAN] REMOVED DATA LEAKAGE FEATURES:
+2025-08-05 13:32:58,716 - INFO -       - neighborhood_avg_price_2km
+2025-08-05 13:32:58,721 - INFO -       - price_per_sqft
+2025-08-05 13:32:58,727 - INFO -       - location_frequency
+2025-08-05 13:32:58,733 - INFO -    Categorical features: 1
+2025-08-05 13:32:58,733 - INFO -    Continuous features: 41
+2025-08-05 13:32:58,733 - INFO -    [SUCCESS] CLEAN FEATURES (No Data Leakage)
+2025-08-05 13:32:58,733 - INFO - [ENCODE] ENCODING CATEGORICAL FEATURES
+2025-08-05 13:32:58,743 - INFO -    Encoded 1 categorical features
+2025-08-05 13:32:58,744 - INFO - [TRAIN] TRAINING SEGMENTED MODELS
+2025-08-05 13:32:58,744 - INFO -    [REGULAR] Training Regular Properties Model (LightGBM)
+2025-08-05 13:33:05,529 - INFO -       R² (Test): 0.4571
+2025-08-05 13:33:05,530 - INFO -       R² (CV Mean): 0.4248 ± 0.0114
+2025-08-05 13:33:05,530 - INFO -       MAE: Rs.2,235,009
+2025-08-05 13:33:05,531 - INFO -    [LUXURY] Training Luxury Properties Model (Random Forest)
+2025-08-05 13:33:10,280 - INFO -       R² (Test): 0.3003
+2025-08-05 13:33:10,280 - INFO -       R² (CV Mean): 0.2837 ± 0.0216
+2025-08-05 13:33:10,281 - INFO -       MAE: Rs.10,013,084
+2025-08-05 13:33:10,281 - INFO - [SAVE] SAVING SEGMENTED MODELS
+2025-08-05 13:33:10,400 - INFO -    Models saved to D:\Mohak\projects\housing-prices\data\segmented_models
+2025-08-05 13:33:10,400 - INFO - [ANALYSIS] GENERATING SEGMENTED MODEL ANALYSIS
+2025-08-05 13:33:10,400 - INFO - [LOCATIONS] GENERATING COMPREHENSIVE LOCATION-WISE MARKET ANALYSIS
+2025-08-05 13:33:10,401 - INFO -    Processing city: Bangalore...
+2025-08-05 13:33:10,403 - INFO -       Found 290 unique locations in Bangalore
+2025-08-05 13:33:10,492 - INFO -       Processed 100/290 locations in Bangalore
+2025-08-05 13:33:10,574 - INFO -       Processed 200/290 locations in Bangalore
+2025-08-05 13:33:10,640 - INFO -       Completed Bangalore: 290 locations processed
+2025-08-05 13:33:10,640 - INFO -    Processing city: Chennai...
+2025-08-05 13:33:10,643 - INFO -       Found 179 unique locations in Chennai
+2025-08-05 13:33:10,732 - INFO -       Processed 100/179 locations in Chennai
+2025-08-05 13:33:10,793 - INFO -       Completed Chennai: 179 locations processed
+2025-08-05 13:33:10,793 - INFO -    Processing city: Delhi...
+2025-08-05 13:33:10,796 - INFO -       Found 298 unique locations in Delhi
+2025-08-05 13:33:10,878 - INFO -       Processed 100/298 locations in Delhi
+2025-08-05 13:33:10,957 - INFO -       Processed 200/298 locations in Delhi
+2025-08-05 13:33:11,100 - INFO -       Completed Delhi: 298 locations processed
+2025-08-05 13:33:11,100 - INFO -    Processing city: Hyderabad...
+2025-08-05 13:33:11,102 - INFO -       Found 234 unique locations in Hyderabad
+2025-08-05 13:33:11,180 - INFO -       Processed 100/234 locations in Hyderabad
+2025-08-05 13:33:11,246 - INFO -       Processed 200/234 locations in Hyderabad
+2025-08-05 13:33:11,269 - INFO -       Completed Hyderabad: 234 locations processed
+2025-08-05 13:33:11,269 - INFO -    Processing city: Kolkata...
+2025-08-05 13:33:11,271 - INFO -       Found 300 unique locations in Kolkata
+2025-08-05 13:33:11,368 - INFO -       Processed 100/300 locations in Kolkata
+2025-08-05 13:33:11,450 - INFO -       Processed 200/300 locations in Kolkata
+2025-08-05 13:33:11,531 - INFO -       Completed Kolkata: 300 locations processed
+2025-08-05 13:33:11,531 - INFO -    Processing city: Mumbai...
+2025-08-05 13:33:11,534 - INFO -       Found 356 unique locations in Mumbai
+2025-08-05 13:33:11,631 - INFO -       Processed 100/356 locations in Mumbai
+2025-08-05 13:33:11,721 - INFO -       Processed 200/356 locations in Mumbai
+2025-08-05 13:33:11,805 - INFO -       Processed 300/356 locations in Mumbai
+2025-08-05 13:33:11,855 - INFO -       Completed Mumbai: 356 locations processed
+2025-08-05 13:33:11,856 - INFO -    [COMPLETE] Processed 6 cities with 1657 total unique locations
+2025-08-05 13:33:11,856 - INFO -       Bangalore: 290 locations
+2025-08-05 13:33:11,856 - INFO -       Chennai: 179 locations
+2025-08-05 13:33:11,856 - INFO -       Delhi: 298 locations
+2025-08-05 13:33:11,856 - INFO -       Hyderabad: 234 locations
+2025-08-05 13:33:11,856 - INFO -       Kolkata: 300 locations
+2025-08-05 13:33:11,857 - INFO -       Mumbai: 356 locations
+2025-08-05 13:33:13,009 - INFO -    Analysis saved to D:\Mohak\projects\housing-prices\data\segmented_models\segmented_model_analysis.png
+2025-08-05 13:33:13,090 - INFO -    Location predictions saved to D:\Mohak\projects\housing-prices\data\segmented_models\location_predictions.json
+2025-08-05 13:33:13,091 - INFO -    Location summary saved to D:\Mohak\projects\housing-prices\data\segmented_models\location_summary.json
+2025-08-05 13:33:13,121 - ERROR - Pipeline failed: 'total_cities'
+2025-08-05 13:35:37,771 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 13:35:37,771 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 13:35:37,772 - INFO -    Memory: 4.0 GB
+2025-08-05 13:35:38,423 - INFO - [RBI] RBI API connection successful
+2025-08-05 13:35:38,509 - WARNING - Regular model prediction failed: 0 columns passed, passed data had 42 columns
+2025-08-05 13:41:20,068 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 13:41:20,069 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 13:41:20,069 - INFO -    Memory: 4.0 GB
+2025-08-05 13:41:20,531 - INFO - [RBI] RBI API connection successful
+2025-08-05 13:41:20,547 - INFO - [QUERY] Processing natural language query: '3 bedroom flat 1000 sqft in andheri without parking price'
+2025-08-05 13:41:20,564 - INFO - [PARSE] Extracted features: {'no._of_bedrooms': 3, 'area': 1000, 'property_type': 'Apartment', 'parking': 0, 'location': 'Andheri', 'furnishing_status': 'Semi-Furnished'}
+2025-08-05 13:41:20,565 - INFO - [PARSE] Parsing confidence: 0.90
+2025-08-05 13:41:20,565 - INFO - [QUERY] Processing natural language query: '2 bhk apartment 800 sqft in koramangala bangalore furnished'
+2025-08-05 13:41:20,579 - INFO - [PARSE] Extracted features: {'no._of_bedrooms': 2, 'area': 800, 'property_type': 'Apartment', 'furnishing_status': 'Furnished', 'city': 'Bangalore', 'location': 'Koramangala'}
+2025-08-05 13:41:20,579 - INFO - [PARSE] Parsing confidence: 1.00
+2025-08-05 13:41:20,595 - ERROR - Natural query prediction failed: 'SegmentedRealEstateModel' object has no attribute 'predict_location_price'
+2025-08-05 13:59:09,975 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 13:59:09,975 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 13:59:09,975 - INFO -    Memory: 4.0 GB
+2025-08-05 13:59:09,976 - INFO - [QUERY] Processing natural language query: 'what is the price in noida of a 3000sqft  bedroom house'
+2025-08-05 13:59:09,991 - INFO - [PARSE] Extracted features: {'area': 3000, 'property_type': 'Independent House', 'location': 'Noida', 'furnishing_status': 'Semi-Furnished'}
+2025-08-05 13:59:09,991 - INFO - [PARSE] Parsing confidence: 0.60
+2025-08-05 16:43:06,834 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 16:43:06,835 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 16:43:06,835 - INFO -    Memory: 4.0 GB
+2025-08-05 16:43:07,318 - INFO - [RBI] RBI API connection successful
+2025-08-05 16:43:07,319 - INFO - [DATA] LOADING DATA FOR SEGMENTED MODEL
+2025-08-05 16:43:07,427 - INFO -    Loaded 32,963 properties
+2025-08-05 16:43:07,427 - INFO - [SEGMENT] SEGMENTING MARKET BY PRICE RANGES
+2025-08-05 16:43:07,453 - INFO -    [REGULAR] REGULAR PROPERTIES: 29,130 (88.9%)
+2025-08-05 16:43:07,454 - INFO -       Range: Rs.2,000,000 - Rs.19,900,000
+2025-08-05 16:43:07,458 - INFO -       Median: Rs.6,000,000
+2025-08-05 16:43:07,460 - INFO -    [LUXURY] LUXURY PROPERTIES: 3,626 (11.1%)
+2025-08-05 16:43:07,460 - INFO -       Range: Rs.20,000,000 - Rs.100,000,000
+2025-08-05 16:43:07,461 - INFO -       Median: Rs.29,000,000
+2025-08-05 16:43:07,462 - INFO -    [OUTLIERS] OUTLIERS REMOVED: 207 properties above Rs.100,000,000
+2025-08-05 16:43:07,869 - INFO -    Saved 29,130 records to regular_properties.csv
+2025-08-05 16:43:07,921 - INFO -    Saved 3,626 records to luxury_properties.csv
+2025-08-05 16:43:07,925 - INFO -    Saved 207 records to outliers.csv
+2025-08-05 16:43:07,926 - INFO - [FEATURES] PREPARING FEATURES FOR SEGMENTED MODELS
+2025-08-05 16:43:07,931 - INFO -    [CLEAN] REMOVED DATA LEAKAGE FEATURES:
+2025-08-05 16:43:07,931 - INFO -       - neighborhood_avg_price_2km
+2025-08-05 16:43:07,943 - INFO -       - price_per_sqft
+2025-08-05 16:43:07,951 - INFO -       - location_frequency
+2025-08-05 16:43:07,959 - INFO -    Categorical features: 1
+2025-08-05 16:43:07,959 - INFO -    Continuous features: 41
+2025-08-05 16:43:07,960 - INFO -    [SUCCESS] CLEAN FEATURES (No Data Leakage)
+2025-08-05 16:43:07,960 - INFO - [ENCODE] ENCODING CATEGORICAL FEATURES
+2025-08-05 16:43:07,976 - INFO -    Encoded 1 categorical features
+2025-08-05 16:43:07,977 - INFO - [TRAIN] TRAINING SEGMENTED MODELS
+2025-08-05 16:43:07,977 - INFO -    [REGULAR] Training Regular Properties Model (LightGBM)
+2025-08-05 16:43:14,930 - INFO -       R² (Test): 0.4571
+2025-08-05 16:43:14,931 - INFO -       R² (CV Mean): 0.4248 ± 0.0114
+2025-08-05 16:43:14,931 - INFO -       MAE: Rs.2,235,009
+2025-08-05 16:43:14,932 - INFO -    [LUXURY] Training Luxury Properties Model (Random Forest)
+2025-08-05 16:43:19,696 - INFO -       R² (Test): 0.3003
+2025-08-05 16:43:19,696 - INFO -       R² (CV Mean): 0.2837 ± 0.0216
+2025-08-05 16:43:19,697 - INFO -       MAE: Rs.10,013,084
+2025-08-05 16:43:19,697 - INFO - [SAVE] SAVING SEGMENTED MODELS
+2025-08-05 16:43:19,824 - INFO -    Models saved to D:\Mohak\projects\housing-prices\data\segmented_models
+2025-08-05 16:43:19,825 - INFO - [ANALYSIS] GENERATING SEGMENTED MODEL ANALYSIS
+2025-08-05 16:43:19,825 - INFO - [LOCATIONS] GENERATING COMPREHENSIVE LOCATION-WISE MARKET ANALYSIS
+2025-08-05 16:43:19,827 - INFO -    Processing city: Bangalore...
+2025-08-05 16:43:19,830 - INFO -       Found 290 unique locations in Bangalore
+2025-08-05 16:43:19,916 - INFO -       Processed 100/290 locations in Bangalore
+2025-08-05 16:43:20,039 - INFO -       Processed 200/290 locations in Bangalore
+2025-08-05 16:43:20,109 - INFO -       Completed Bangalore: 290 locations processed
+2025-08-05 16:43:20,109 - INFO -    Processing city: Chennai...
+2025-08-05 16:43:20,112 - INFO -       Found 179 unique locations in Chennai
+2025-08-05 16:43:20,196 - INFO -       Processed 100/179 locations in Chennai
+2025-08-05 16:43:20,255 - INFO -       Completed Chennai: 179 locations processed
+2025-08-05 16:43:20,255 - INFO -    Processing city: Delhi...
+2025-08-05 16:43:20,257 - INFO -       Found 298 unique locations in Delhi
+2025-08-05 16:43:20,336 - INFO -       Processed 100/298 locations in Delhi
+2025-08-05 16:43:20,407 - INFO -       Processed 200/298 locations in Delhi
+2025-08-05 16:43:20,480 - INFO -       Completed Delhi: 298 locations processed
+2025-08-05 16:43:20,481 - INFO -    Processing city: Hyderabad...
+2025-08-05 16:43:20,483 - INFO -       Found 234 unique locations in Hyderabad
+2025-08-05 16:43:20,561 - INFO -       Processed 100/234 locations in Hyderabad
+2025-08-05 16:43:20,632 - INFO -       Processed 200/234 locations in Hyderabad
+2025-08-05 16:43:20,654 - INFO -       Completed Hyderabad: 234 locations processed
+2025-08-05 16:43:20,655 - INFO -    Processing city: Kolkata...
+2025-08-05 16:43:20,657 - INFO -       Found 300 unique locations in Kolkata
+2025-08-05 16:43:20,754 - INFO -       Processed 100/300 locations in Kolkata
+2025-08-05 16:43:20,836 - INFO -       Processed 200/300 locations in Kolkata
+2025-08-05 16:43:20,916 - INFO -       Completed Kolkata: 300 locations processed
+2025-08-05 16:43:20,916 - INFO -    Processing city: Mumbai...
+2025-08-05 16:43:20,918 - INFO -       Found 356 unique locations in Mumbai
+2025-08-05 16:43:21,023 - INFO -       Processed 100/356 locations in Mumbai
+2025-08-05 16:43:21,124 - INFO -       Processed 200/356 locations in Mumbai
+2025-08-05 16:43:21,216 - INFO -       Processed 300/356 locations in Mumbai
+2025-08-05 16:43:21,266 - INFO -       Completed Mumbai: 356 locations processed
+2025-08-05 16:43:21,266 - INFO -    [COMPLETE] Processed 6 cities with 1657 total unique locations
+2025-08-05 16:43:21,266 - INFO -       Bangalore: 290 locations
+2025-08-05 16:43:21,266 - INFO -       Chennai: 179 locations
+2025-08-05 16:43:21,266 - INFO -       Delhi: 298 locations
+2025-08-05 16:43:21,266 - INFO -       Hyderabad: 234 locations
+2025-08-05 16:43:21,266 - INFO -       Kolkata: 300 locations
+2025-08-05 16:43:21,266 - INFO -       Mumbai: 356 locations
+2025-08-05 16:43:22,569 - INFO -    Analysis saved to D:\Mohak\projects\housing-prices\data\segmented_models\segmented_model_analysis.png
+2025-08-05 16:43:22,647 - INFO -    Location predictions saved to D:\Mohak\projects\housing-prices\data\segmented_models\location_predictions.json
+2025-08-05 16:43:22,647 - INFO -    Location summary saved to D:\Mohak\projects\housing-prices\data\segmented_models\location_summary.json
+2025-08-05 16:43:47,732 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 16:43:47,732 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 16:43:47,733 - INFO -    Memory: 4.0 GB
+2025-08-05 16:44:06,725 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 16:44:06,725 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 16:44:06,725 - INFO -    Memory: 4.0 GB
+2025-08-05 16:45:51,739 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 16:45:51,739 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 16:45:51,740 - INFO -    Memory: 4.0 GB
+2025-08-05 16:46:11,391 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 16:46:11,392 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 16:46:11,392 - INFO -    Memory: 4.0 GB
+2025-08-05 16:54:49,688 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 16:54:49,689 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 16:54:49,689 - INFO -    Memory: 4.0 GB
+2025-08-05 16:55:37,594 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 16:55:37,595 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 16:55:37,595 - INFO -    Memory: 4.0 GB
+2025-08-05 16:58:38,763 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 16:58:38,764 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 16:58:38,765 - INFO -    Memory: 4.0 GB
+2025-08-05 16:58:38,903 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 16:58:38,904 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 16:58:38,904 - INFO -    Memory: 4.0 GB
+2025-08-05 17:05:53,611 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 17:05:53,611 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 17:05:53,611 - INFO -    Memory: 4.0 GB
+2025-08-05 17:05:54,946 - INFO - AFC is enabled with max remote calls: 10.
+2025-08-05 17:05:59,320 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-05 17:05:59,327 - INFO - AFC remote call 1 is done.
+2025-08-05 17:06:44,201 - INFO - AFC is enabled with max remote calls: 10.
+2025-08-05 17:06:58,759 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-05 17:06:58,760 - INFO - AFC remote call 1 is done.
+2025-08-05 17:07:42,549 - INFO - AFC is enabled with max remote calls: 10.
+2025-08-05 17:07:56,311 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-05 17:07:56,313 - INFO - AFC remote call 1 is done.
+2025-08-05 17:13:05,839 - INFO - [QUERY] Processing natural language query: '4BHK in kharghar near central park'
+2025-08-05 17:13:05,858 - INFO - [PARSE] Extracted features: {'no._of_bedrooms': 4, 'location': 'Kharghar', 'property_type': 'Apartment', 'furnishing_status': 'Semi-Furnished'}
+2025-08-05 17:13:05,858 - INFO - [PARSE] Parsing confidence: 0.60
+2025-08-05 17:13:35,462 - INFO - [QUERY] Processing natural language query: '4BHK in kharghar,mumbai near central park'
+2025-08-05 17:13:35,479 - INFO - [PARSE] Extracted features: {'no._of_bedrooms': 4, 'city': 'Mumbai', 'location': 'Kharghar', 'property_type': 'Apartment', 'furnishing_status': 'Semi-Furnished'}
+2025-08-05 17:13:35,480 - INFO - [PARSE] Parsing confidence: 0.70
+2025-08-05 17:13:35,511 - ERROR - Location prediction failed for Kharghar, Mumbai: No models trained. Please train models first.
+2025-08-05 17:13:59,424 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 17:13:59,425 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 17:13:59,425 - INFO -    Memory: 4.0 GB
+2025-08-05 17:41:15,075 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 17:41:15,076 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 17:41:15,076 - INFO -    Memory: 4.0 GB
+2025-08-05 17:41:15,879 - INFO - AFC is enabled with max remote calls: 10.
+2025-08-05 17:41:16,617 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-05 17:41:16,619 - INFO - AFC remote call 1 is done.
+2025-08-05 17:41:20,347 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 17:41:20,347 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 17:41:20,348 - INFO -    Memory: 4.0 GB
+2025-08-05 17:42:09,748 - INFO - AFC is enabled with max remote calls: 10.
+2025-08-05 17:42:20,152 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-05 17:42:20,153 - INFO - AFC remote call 1 is done.
+2025-08-05 17:46:39,813 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 17:46:39,813 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 17:46:39,813 - INFO -    Memory: 4.0 GB
+2025-08-05 17:49:04,231 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 17:49:04,231 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 17:49:04,231 - INFO -    Memory: 4.0 GB
+2025-08-05 17:49:04,709 - INFO - AFC is enabled with max remote calls: 10.
+2025-08-05 17:49:06,711 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-05 17:49:06,712 - INFO - AFC remote call 1 is done.
+2025-08-05 17:52:26,695 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 17:52:26,696 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 17:52:26,696 - INFO -    Memory: 4.0 GB
+2025-08-05 17:52:41,408 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 17:52:41,408 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 17:52:41,408 - INFO -    Memory: 4.0 GB

@@ -1,0 +1,5 @@
+2025-08-05 13:09:28,595 - INFO - [GPU] GPU ACCELERATION ENABLED
+2025-08-05 13:09:28,595 - INFO -    Device: NVIDIA GeForce GTX 1650
+2025-08-05 13:09:28,596 - INFO -    Memory: 4.0 GB
+2025-08-05 13:09:28,596 - INFO - [DATA] LOADING DATA FOR SEGMENTED MODEL
+2025-08-05 13:09:28,597 - ERROR - Pipeline failed: [Errno 2] No such file or directory: 'data/geo_enriched/production_geo_enriched_data.csv'

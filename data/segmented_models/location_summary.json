@@ -1,0 +1,12 @@
+{
+  "total_cities": 6,
+  "total_locations": 1657,
+  "cities_analyzed": [
+    "Bangalore",
+    "Chennai",
+    "Delhi",
+    "Hyderabad",
+    "Kolkata",
+    "Mumbai"
+  ]
+}
